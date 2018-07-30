@@ -40,3 +40,45 @@ c:\users\pablo.ojeda\documents\visual studio 2017\Projects\Presidents\WebApiPres
 c:\users\pablo.ojeda\documents\visual studio 2017\Projects\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.csproj.CopyComplete
 c:\users\pablo.ojeda\documents\visual studio 2017\Projects\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.dll
 c:\users\pablo.ojeda\documents\visual studio 2017\Projects\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.pdb
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\ApplicationInsights.config
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Presidents.json
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidentsTests.dll.config
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidentsTests.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidentsTests.pdb
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Newtonsoft.Json.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidents.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebActivatorEx.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Swashbuckle.Core.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Mvc.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Net.Http.Formatting.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Optimization.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Http.WebHost.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.WebPages.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Razor.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidents.pdb
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidents.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\WebApiPresidents.dll.config
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\Newtonsoft.Json.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Mvc.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Net.Http.Formatting.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Optimization.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Http.WebHost.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.WebPages.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.Razor.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\MyGitHub\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.csprojAssemblyReference.cache
+C:\MyGitHub\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.csproj.CoreCompileInputs.cache
+C:\MyGitHub\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.csproj.CopyComplete
+C:\MyGitHub\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.dll
+C:\MyGitHub\Presidents\WebApiPresidentsTests\obj\Debug\WebApiPresidentsTests.pdb

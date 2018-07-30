@@ -49,8 +49,8 @@ namespace WebAPI.Controllers.Tests
             string jsonString = responseString.Result;
 
             USPresident[] listPresidents = JsonConvert.DeserializeObject<USPresident[]>(jsonString);
-            Assert.IsTrue(DateTime.Parse(listPresidents[0].Birthday) <= DateTime.Parse(listPresidents[1].Birthday));
-            Assert.IsTrue(string.IsNullOrEmpty(listPresidents[43].Death_day));
+            Assert.IsTrue(DateTime.Parse(listPresidents[0].Birthday) <= DateTime.Parse(listPresidents[listPresidents.Length - 1].Birthday));
+            Assert.IsTrue(string.IsNullOrEmpty(listPresidents[listPresidents.Length - 1].Death_day));
         }
 
         [TestMethod()]
@@ -70,8 +70,8 @@ namespace WebAPI.Controllers.Tests
             string jsonString = responseString.Result;
 
             USPresident[] listPresidents = JsonConvert.DeserializeObject<USPresident[]>(jsonString);
-            Assert.IsTrue(DateTime.Parse(listPresidents[0].Birthday) >= DateTime.Parse(listPresidents[1].Birthday));
-            Assert.IsTrue(string.IsNullOrEmpty(listPresidents[43].Death_day));
+            Assert.IsTrue(DateTime.Parse(listPresidents[0].Birthday) >= DateTime.Parse(listPresidents[listPresidents.Length - 1].Birthday));
+            Assert.IsTrue(string.IsNullOrEmpty(listPresidents[listPresidents.Length-1].Death_day));
         }
 
         [TestMethod()]
