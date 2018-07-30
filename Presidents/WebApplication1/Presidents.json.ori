@@ -1,0 +1,23 @@
+[
+ {
+   "Name": "George Washington",
+   "Birthday": "1732-2-22",
+   "BirthPlace": "Westmoreland Co., Va.",
+   "DeathDay": "1799-12-14",
+   "DeathPlace": "Mount Vernon, Va."
+ },
+ {
+   "Name": "John Adams",
+   "Birthday": "1735-10-30",
+   "BirthPlace": "Quincy, Mass.",
+   "DeathDay": "",
+   "DeathPlace": "Quincy, Mass."
+ },
+ {
+   "Name": "Thomas Jefferson",
+   "Birthday": "1743-4-13",
+   "BirthPlace": "Albemarle Co., Va.",
+   "DeathDay": "1826-7-4",
+   "DeathPlace": "Albemarle Co., Va."
+ }
+]
