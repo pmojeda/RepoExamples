@@ -1,0 +1,5 @@
+C:\Users\gusta\documents\visual studio 2013\Projects\Arquitectura\Componentes\bin\Debug\Componentes.dll
+C:\Users\gusta\documents\visual studio 2013\Projects\Arquitectura\Componentes\bin\Debug\Componentes.pdb
+C:\Users\gusta\documents\visual studio 2013\Projects\Arquitectura\Componentes\obj\Debug\Componentes.csprojResolveAssemblyReference.cache
+C:\Users\gusta\documents\visual studio 2013\Projects\Arquitectura\Componentes\obj\Debug\Componentes.dll
+C:\Users\gusta\documents\visual studio 2013\Projects\Arquitectura\Componentes\obj\Debug\Componentes.pdb

@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "Personas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Personas</h3>
+
+<div ng-app="PersonaApp" ng-controller="PersonaCtrl">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="input-group">
+                <div class="input-group">
+                    <input type="text"
+                           class="form-control"
+                           name="searchText"
+                           ng-model="searchText"
+                           placeholder="Texto de búsqueda..." />
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" ng-click="Buscar()">Buscar</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-right">
+            <a href="@Url.Action("Create", "Home", null)"><span class="btn btn-success">Nueva Persona</span></a> 
+        </div>
+    </div>
+    <br />
+    <table class="table table-striped table-hover">
+        <tr>
+            <th width="10%" ng-click="sort('Codigo')" style="cursor:pointer">
+                Código
+                <span class="glyphicon sort-icon" ng-show="sortKey=='Codigo'" ng-class="{'glyphicon-chevron-down':reverse,'glyphicon-chevron-up':!reverse}"></span>
+            </th>
+
+            <th width="15%" ng-click="sort('Nombre')" style="cursor:pointer">
+                Nombre
+                <span class="glyphicon sort-icon" ng-show="sortKey=='Nombre'" ng-class="{'glyphicon-chevron-down':reverse,'glyphicon-chevron-up':!reverse}"></span>
+            </th>
+            <th width="30%" ng-click="sort('Apellidos')" style="cursor:pointer">
+                Apellidos
+                <span class="glyphicon sort-icon" ng-show="sortKey=='Apellidos'" ng-class="{'glyphicon-chevron-down':reverse,'glyphicon-chevron-up':!reverse}"></span>
+            </th>
+            <th width="25%" ng-click="sort('Correo')" style="cursor:pointer">
+                Correo
+                <span class="glyphicon sort-icon" ng-show="sortKey=='Correo'" ng-class="{'glyphicon-chevron-down':reverse,'glyphicon-chevron-up':!reverse}"></span>
+            </th>
+            <th width="20%">Acción</th>
+        </tr>
+        <tr dir-paginate="item in Personas|orderBy:sortKey:reverse|itemsPerPage:10">
+            <td>{{item.TipoIdentificacion.Codigo}}</td>
+            <td>{{item.Nombre}}</td>
+            <td>{{item.Apellidos}}</td>
+            <td>{{item.Correo}}</td>
+            <td>
+                <a ng-href="@Url.Content("~/Home/Edit/"){{item.IdPersona}}">  <span class="btn-sm btn-primary glyphicon glyphicon-edit" title="Actualizar"></span></a>
+                <a ng-href="@Url.Content("~/Home/Details/"){{item.IdPersona}}"> <span class="btn-sm btn-success glyphicon glyphicon-th-list" title="Detalle"></span></a>
+                <a onclick="return confirm('¿Esta seguro de eliminar el registro ?');" href="@Url.Content("~/Home/Delete/"){{item.IdPersona}}"><span class="btn-sm btn-danger  glyphicon glyphicon-trash" title="Eliminar"></span></a>
+            </td>
+        </tr>
+    </table>
+    <dir-pagination-controls max-size="10" direction-links="true" boundary-links="true"></dir-pagination-controls>
+</div>
+<script src="~/Scripts/Controllers/PersonaApp.js"></script>
+
