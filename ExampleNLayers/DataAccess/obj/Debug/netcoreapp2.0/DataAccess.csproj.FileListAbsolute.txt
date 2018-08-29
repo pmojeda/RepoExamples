@@ -1,0 +1,14 @@
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.deps.json
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.runtimeconfig.json
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.runtimeconfig.dev.json
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.dll
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\DataAccess.pdb
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\Common.dll
+C:\MyGitHub\ExampleNLayers\DataAccess\bin\Debug\netcoreapp2.0\Common.pdb
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csprojAssemblyReference.cache
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.AssemblyInfoInputs.cache
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.AssemblyInfo.cs
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.csproj.CopyComplete
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.dll
+C:\MyGitHub\ExampleNLayers\DataAccess\obj\Debug\netcoreapp2.0\DataAccess.pdb

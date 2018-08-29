@@ -1,0 +1,11 @@
+C:\MyGitHub\ExampleNLayers\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.deps.json
+C:\MyGitHub\ExampleNLayers\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.runtimeconfig.json
+C:\MyGitHub\ExampleNLayers\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.runtimeconfig.dev.json
+C:\MyGitHub\ExampleNLayers\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.dll
+C:\MyGitHub\ExampleNLayers\WebAPI\bin\Debug\netcoreapp2.0\WebAPI.pdb
+C:\MyGitHub\ExampleNLayers\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.csprojAssemblyReference.cache
+C:\MyGitHub\ExampleNLayers\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\MyGitHub\ExampleNLayers\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.AssemblyInfoInputs.cache
+C:\MyGitHub\ExampleNLayers\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.AssemblyInfo.cs
+C:\MyGitHub\ExampleNLayers\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.dll
+C:\MyGitHub\ExampleNLayers\WebAPI\obj\Debug\netcoreapp2.0\WebAPI.pdb

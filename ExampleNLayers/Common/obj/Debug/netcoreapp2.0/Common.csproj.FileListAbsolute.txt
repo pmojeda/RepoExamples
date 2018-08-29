@@ -1,0 +1,9 @@
+C:\MyGitHub\ExampleNLayers\Common\bin\Debug\netcoreapp2.0\Common.deps.json
+C:\MyGitHub\ExampleNLayers\Common\bin\Debug\netcoreapp2.0\Common.dll
+C:\MyGitHub\ExampleNLayers\Common\bin\Debug\netcoreapp2.0\Common.pdb
+C:\MyGitHub\ExampleNLayers\Common\obj\Debug\netcoreapp2.0\Common.csproj.CoreCompileInputs.cache
+C:\MyGitHub\ExampleNLayers\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfoInputs.cache
+C:\MyGitHub\ExampleNLayers\Common\obj\Debug\netcoreapp2.0\Common.AssemblyInfo.cs
+C:\MyGitHub\ExampleNLayers\Common\obj\Debug\netcoreapp2.0\Common.dll
+C:\MyGitHub\ExampleNLayers\Common\obj\Debug\netcoreapp2.0\Common.pdb
+C:\MyGitHub\ExampleNLayers\Common\obj\Debug\netcoreapp2.0\Common.csprojAssemblyReference.cache
