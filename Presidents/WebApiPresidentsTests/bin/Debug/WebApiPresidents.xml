@@ -4,25 +4,25 @@
         <name>WebApiPresidents</name>
     </assembly>
     <members>
-        <member name="T:WebAPI.Controllers.ValuesController">
+        <member name="T:WebAPI.Controllers.PresidentController">
             <summary>
             Controller to manage lists of presidents
             </summary>
         </member>
-        <member name="M:WebAPI.Controllers.ValuesController.GetAll">
+        <member name="M:WebAPI.Controllers.PresidentController.GetAll">
             <summary>
             List of Presidents
             </summary>
             <returns></returns>
         </member>
-        <member name="M:WebAPI.Controllers.ValuesController.GetOrdered(System.Boolean)">
+        <member name="M:WebAPI.Controllers.PresidentController.GetOrdered(System.Boolean)">
             <summary>
             Ordered list of Presidents
             </summary>
             <param name="ascendent">Indicates if the list order will be ascendent</param>
             <returns></returns>
         </member>
-        <member name="M:WebAPI.Controllers.ValuesController.GetFiltered(System.String)">
+        <member name="M:WebAPI.Controllers.PresidentController.GetFiltered(System.String)">
             <summary>
             Get a President by name
             </summary>

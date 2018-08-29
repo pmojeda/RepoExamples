@@ -15,7 +15,7 @@ namespace WebAPI.Controllers.Tests
         [TestMethod()]
         public void GetAllTest()
         {
-            var controller = new ValuesController
+            var controller = new PresidentController
             {
                 Request = new HttpRequestMessage()
                 {
@@ -35,7 +35,7 @@ namespace WebAPI.Controllers.Tests
         [TestMethod()]
         public void GetOrderedAscendentTest()
         {
-            var controller = new ValuesController
+            var controller = new PresidentController
             {
                 Request = new HttpRequestMessage()
                 {
@@ -56,7 +56,7 @@ namespace WebAPI.Controllers.Tests
         [TestMethod()]
         public void GetOrderedDescendentTest()
         {
-            var controller = new ValuesController
+            var controller = new PresidentController
             {
                 Request = new HttpRequestMessage()
                 {
@@ -77,7 +77,7 @@ namespace WebAPI.Controllers.Tests
         [TestMethod()]
         public void GetFilteredTest()
         {
-            var controller = new ValuesController
+            var controller = new PresidentController
             {
                 Request = new HttpRequestMessage()
                 {
