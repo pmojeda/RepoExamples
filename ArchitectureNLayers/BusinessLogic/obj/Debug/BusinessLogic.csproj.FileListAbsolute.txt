@@ -1,0 +1,16 @@
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\BusinessEntity.dll
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\Common.dll
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\DataAccess.dll
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\BusinessEntity.pdb
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\Common.pdb
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\DataAccess.dll.config
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\obj\Debug\BusinessLogic.csprojAssemblyReference.cache
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\obj\Debug\BusinessLogic.csproj.CoreCompileInputs.cache
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\MyGitHub\ArchitectureNLayers\BusinessLogic\obj\Debug\BusinessLogic.pdb
