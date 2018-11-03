@@ -63,4 +63,7 @@
     <Build Include="DocumentType.sql" />
     <Build Include="MaritalStatus.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment.sql" />
+  </ItemGroup>
 </Project>

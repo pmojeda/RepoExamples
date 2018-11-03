@@ -12,6 +12,8 @@ namespace BusinessEntity
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using System.Data.Entity.Core.Objects;
+    using System.Linq;
     
     public partial class Example01Entities : DbContext
     {
@@ -28,5 +30,14 @@ namespace BusinessEntity
         public virtual DbSet<DocumentType> DocumentType { get; set; }
         public virtual DbSet<MaritalStatus> MaritalStatus { get; set; }
         public virtual DbSet<Person> Person { get; set; }
+    
+        public virtual ObjectResult<spGetPersonFilteredbyName_Result> spGetPersonFilteredbyName(string pSearchedName)
+        {
+            var pSearchedNameParameter = pSearchedName != null ?
+                new ObjectParameter("pSearchedName", pSearchedName) :
+                new ObjectParameter("pSearchedName", typeof(string));
+    
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<spGetPersonFilteredbyName_Result>("spGetPersonFilteredbyName", pSearchedNameParameter);
+        }
     }
 }

@@ -55,6 +55,9 @@
       <DependentUpon>ModelExample01.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="spGetPersonFilteredbyName_Result.cs">
+      <DependentUpon>ModelExample01.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

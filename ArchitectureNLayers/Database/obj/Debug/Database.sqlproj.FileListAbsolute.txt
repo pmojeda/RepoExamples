@@ -1,5 +1,0 @@
-C:\MyGitHub\ArchitectureNLayers\Database\bin\Debug\Database.dacpac
-C:\MyGitHub\ArchitectureNLayers\Database\bin\Debug\Database.dll
-C:\MyGitHub\ArchitectureNLayers\Database\bin\Debug\Database.pdb
-C:\MyGitHub\ArchitectureNLayers\Database\obj\Debug\Database.dll
-C:\MyGitHub\ArchitectureNLayers\Database\obj\Debug\Database.pdb

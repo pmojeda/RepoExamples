@@ -1,0 +1,13 @@
+/ArchitectureNLayers/BusinessEntity/*
+/ArchitectureNLayers/BusinessLogic/bin
+/ArchitectureNLayers/BusinessLogic/obj
+/ArchitectureNLayers/Common/bin
+/ArchitectureNLayers/Common/obj
+/ArchitectureNLayers/DataAccess/bin
+/ArchitectureNLayers/DataAccess/obj
+/ArchitectureNLayers/Database/bin
+/ArchitectureNLayers/Database/obj
+/ArchitectureNLayers/UnitTestExample01/obj
+/ArchitectureNLayers/UnitTestExample01/bin
+/ArchitectureNLayers/WebAPI/obj
+/ArchitectureNLayers/WebAPI/bin

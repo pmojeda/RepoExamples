@@ -14,16 +14,7 @@ namespace BusinessEntity
     
     public partial class MaritalStatus
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public MaritalStatus()
-        {
-            this.Person = new HashSet<Person>();
-        }
-    
         public int IdMaritalStatus { get; set; }
         public string Description { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Person> Person { get; set; }
     }
 }

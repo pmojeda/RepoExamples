@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Core.Objects;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,42 +13,60 @@ namespace DataAccess
     {
         public List<Person> GetAll()
         {
-            return base.entities.Person.ToList();
+            return entities.Person.ToList();
         }
 
         public Person Get(int id)
         {
-            return base.entities.Person.Find(id);
+            return entities.Person.Find(id);
         }
 
         public List<Person> GetAllFiltered(string name, string surname)
         {
-            return base.entities.Person.Where(P => P.Name.Contains(name) && P.Surname.Contains(surname)).ToList();
+            //Cargando los objetos referenciados (Navegación del EF)
+            return entities.Person
+                .Where(P => P.Name.Contains(name) && P.Surname.Contains(surname))
+                .Include(d => d.DocumentType)
+                .Include(m => m.MaritalStatus)
+                .ToList();
+
+            //Sin cargar objetos referenciados
+            /*
+            return entities.Person
+                .Where(P => P.Name.Contains(name) && P.Surname.Contains(surname))
+                .ToList();
+            */
+        }
+
+        public List<spGetPersonFilteredbyName_Result> GetAllFilteredByName(string name)
+        {
+            ObjectResult<spGetPersonFilteredbyName_Result> result = entities.spGetPersonFilteredbyName(name);
+            return result.ToList();
         }
 
         public Person Create(Person person)
         {
-            base.entities.Person.Add(person);
-            base.entities.SaveChanges();
+            entities.Person.Add(person);
+            entities.SaveChanges();
             return person;
         }
 
         public Person Update(Person person)
         {
-            base.entities.Entry(person).State= EntityState.Modified;
-            base.entities.SaveChanges();            
+            entities.Entry(person).State= EntityState.Modified;
+            entities.SaveChanges();            
             return person;
         }
 
         public bool Delete(int id)
         {
             bool result = false;
-            Person person = base.entities.Person.Find(id);
+            Person person = entities.Person.Find(id);
 
             if (person != null)
             {
-                base.entities.Person.Remove(person);
-                base.entities.SaveChanges();
+                entities.Person.Remove(person);
+                entities.SaveChanges();
                 result = true;
             }
 

@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
         /// <returns></returns>
         [HttpGet]
         [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<Person>))]
-        [Route("api/person/")]
+        [Route("api/person/GetAll")]
         public HttpResponseMessage GetAll()
         {
             try
@@ -62,7 +62,7 @@ namespace WebAPI.Controllers
         }
 
         /// <summary>
-        /// Get a filtered list of people
+        /// Get a list of people filtered by Name and Surname
         /// </summary>
         /// <param name="name"></param>
         /// <param name="surname"></param>
@@ -70,7 +70,7 @@ namespace WebAPI.Controllers
         [HttpGet]
         [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<Person>))]
         [Route("api/person/GetAllFiltered/")]
-        public HttpResponseMessage GetAllFiltered(string name, string surname)
+        public HttpResponseMessage GetAllFiltered(string name, string surname="")
         {
             try
             {
@@ -84,6 +84,30 @@ namespace WebAPI.Controllers
                 return Request.CreateResponse(HttpStatusCode.NotAcceptable, ex.Message + ": " + ex.StackTrace.ToString());
             }
         }
+
+        /// <summary>
+        /// Get a list of people filtered by Name 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [SwaggerResponse(HttpStatusCode.OK, Type = typeof(IEnumerable<spGetPersonFilteredbyName_Result>))]
+        [Route("api/person/GetAllFilteredByName/")]
+        public HttpResponseMessage GetAllFilteredByName(string name)
+        {
+            try
+            {
+                BLPerson blPerson = new BLPerson();
+                List<spGetPersonFilteredbyName_Result> listPerson = blPerson.GetAllFilteredByName(name);
+
+                return Request.CreateResponse(HttpStatusCode.OK, listPerson);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.NotAcceptable, ex.Message + ": " + ex.StackTrace.ToString());
+            }
+        }
+
         /// <summary>
         /// Create a Person
         /// </summary>

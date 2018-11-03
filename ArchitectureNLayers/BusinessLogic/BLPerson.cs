@@ -32,6 +32,11 @@ namespace BusinessLogic
             return data.GetAllFiltered(name, surname);
         }
 
+        public List<spGetPersonFilteredbyName_Result> GetAllFilteredByName(string name)
+        {
+            return data.GetAllFilteredByName(name);
+        }
+
         public Person Create(Person person)
         {            
             return data.Create(person);

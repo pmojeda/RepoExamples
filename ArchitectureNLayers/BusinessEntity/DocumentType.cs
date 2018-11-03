@@ -14,16 +14,7 @@ namespace BusinessEntity
     
     public partial class DocumentType
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public DocumentType()
-        {
-            this.Person = new HashSet<Person>();
-        }
-    
         public int IdDocumentType { get; set; }
         public string Description { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Person> Person { get; set; }
     }
 }

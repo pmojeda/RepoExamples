@@ -1,6 +1,0 @@
-C:\MyGitHub\ArchitectureNLayers\BusinessEntity\bin\Debug\BusinessEntity.dll
-C:\MyGitHub\ArchitectureNLayers\BusinessEntity\bin\Debug\BusinessEntity.pdb
-C:\MyGitHub\ArchitectureNLayers\BusinessEntity\obj\Debug\BusinessEntity.csproj.CoreCompileInputs.cache
-C:\MyGitHub\ArchitectureNLayers\BusinessEntity\obj\Debug\BusinessEntity.dll
-C:\MyGitHub\ArchitectureNLayers\BusinessEntity\obj\Debug\BusinessEntity.pdb
-C:\MyGitHub\ArchitectureNLayers\BusinessEntity\obj\Debug\BusinessEntity.csprojAssemblyReference.cache

@@ -61,6 +61,9 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Function Name="spGetPersonFilteredbyName" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="pSearchedName" Type="varchar" Mode="In" />
+        </Function>
         <EntityContainer Name="Example01ModelStoreContainer">
           <EntitySet Name="DocumentType" EntityType="Self.DocumentType" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="MaritalStatus" EntityType="Self.MaritalStatus" Schema="dbo" store:Type="Tables" />
@@ -84,7 +87,6 @@
           </Key>
           <Property Name="IdDocumentType" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Person" Relationship="Self.FK_Person_DocumentType" FromRole="DocumentType" ToRole="Person" />
         </EntityType>
         <EntityType Name="MaritalStatus">
           <Key>
@@ -92,7 +94,6 @@
           </Key>
           <Property Name="IdMaritalStatus" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
-          <NavigationProperty Name="Person" Relationship="Self.FK_Person_MaritalStatus" FromRole="MaritalStatus" ToRole="Person" />
         </EntityType>
         <EntityType Name="Person">
           <Key>
@@ -150,7 +151,21 @@
             <End Role="MaritalStatus" EntitySet="MaritalStatus" />
             <End Role="Person" EntitySet="Person" />
           </AssociationSet>
+          <FunctionImport Name="spGetPersonFilteredbyName" ReturnType="Collection(Example01Model.spGetPersonFilteredbyName_Result)">
+            <Parameter Name="pSearchedName" Mode="In" Type="String" />
+          </FunctionImport>
         </EntityContainer>
+        <ComplexType Name="spGetPersonFilteredbyName_Result">
+          <Property Type="Int32" Name="IdPerson" Nullable="false" />
+          <Property Type="String" Name="Name" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="Surname" Nullable="false" MaxLength="100" />
+          <Property Type="String" Name="Sex" Nullable="false" MaxLength="1" />
+          <Property Type="String" Name="DocumentType" Nullable="false" MaxLength="50" />
+          <Property Type="Int32" Name="DocumentNumber" Nullable="false" />
+          <Property Type="String" Name="MaritalStatus" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="EMail" Nullable="false" MaxLength="50" />
+          <Property Type="String" Name="PhoneNumbers" Nullable="false" MaxLength="50" />
+        </ComplexType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -192,6 +207,21 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="spGetPersonFilteredbyName" FunctionName="Example01Model.Store.spGetPersonFilteredbyName">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Example01Model.spGetPersonFilteredbyName_Result">
+                <ScalarProperty Name="IdPerson" ColumnName="IdPerson" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Surname" ColumnName="Surname" />
+                <ScalarProperty Name="Sex" ColumnName="Sex" />
+                <ScalarProperty Name="DocumentType" ColumnName="DocumentType" />
+                <ScalarProperty Name="DocumentNumber" ColumnName="DocumentNumber" />
+                <ScalarProperty Name="MaritalStatus" ColumnName="MaritalStatus" />
+                <ScalarProperty Name="EMail" ColumnName="EMail" />
+                <ScalarProperty Name="PhoneNumbers" ColumnName="PhoneNumbers" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
